@@ -37,7 +37,6 @@ class SignIn extends React.Component {
 		}
 	}
 	render() {
-		console.log(this.props.isLoginValid);
 		const { email, password } = this.state;
 		const isDataValid = email.length > 0 && password.length > 0 ? true : false;
 		const buttonStyle = !isDataValid ? {background: '#D3D3D3'} : {background: 'white'} ;

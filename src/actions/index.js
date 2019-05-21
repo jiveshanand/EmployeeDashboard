@@ -16,7 +16,6 @@ export const login = (payload) => async dispatch => {
 }
 
 export const fetchDashBoardData = payload => async dispatch => {
-	console.log(dashboardData);
 	dispatch({type: FETCH_DASHBOARD_DATA, payload: dashboardData});
 }
 

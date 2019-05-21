@@ -6,7 +6,6 @@ import tachyons from 'tachyons';
 
 class App extends React.Component {
   render() {
-    console.log(this.props.isLoginValid);
       return (
         <div className="ui container pt2">
           {!this.props.isLoginValid 
